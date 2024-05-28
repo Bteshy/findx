@@ -1,0 +1,176 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+    margin: 0;
+}
+
+.container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 450px;
+    text-align: center;
+}
+
+.container h1 {
+    margin-bottom: 20px;
+    color: #000000;
+}
+
+.container label {
+    display: block;
+    text-align: left;
+    margin: 10px 0 5px 0;
+    color: black;
+}
+
+.container input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 5px 0 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.container .input-icon {
+    position: relative;
+    width: calc(100% - 20px);
+    margin: 5px 0 10px 0;
+}
+
+.container .input-icon i {
+    position: absolute;
+    left: 10px;
+    top: 40%;
+    transform: translateY(-50%);
+    color: #888;
+}
+
+.container .input-icon input {
+    width: 100%;
+    padding: 10px 10px 10px 30px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.container button {
+    width: 50%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 20px;
+    background-color: #000000;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+.container .login{
+
+}
+
+.container button:hover {
+    background-color: #e04415;
+}
+
+.container .social-signup{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.container .social-signup button {
+    width: 48%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.container .social-signup .facebook,
+.container .social-login .facebook {
+    background-color: #165df7;
+    color: white;
+    border-radius: 20px;
+}
+
+.container .social-signup .facebook:hover,
+.container .social-login .facebook:hover {
+    background-color: #2d4373;
+}
+
+.container .social-signup .google,
+.container .social-login .google {
+    background-color: #e04415;
+    color: white;
+    border-radius: 20px;
+}
+
+.container .social-signup .google:hover,
+.container .social-login .google:hover {
+    background-color: #c33c2e;
+}
+
+/* For the login page */
+.login-container .social-login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.login-container .social-login button {
+    width: 80%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+
+.container .terms {
+    font-size: 14px;
+    text-align: left;
+    margin-top: 10px;
+    display:flex;
+}
+.container .terms input {
+    margin-left: -190px;
+    margin-right: -190px;
+}
+
+.container a {
+    color: #FE4F18;
+    text-decoration: none;
+}
+
+.container a:hover {
+    text-decoration: underline;
+}
+
+.separator {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15px 0;
+}
+
+.separator .dash {
+    flex: 1;
+    height: 1px;
+    background-color: #ccc;
+    margin: 0 10px;
+}
+
+.separator .or {
+    font-weight: bold;
+    color: #666;
+}
